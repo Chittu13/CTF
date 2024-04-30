@@ -21,10 +21,10 @@
   - then go to --> [ZXing Decoder](https://zxing.org/w/decode.jspx)
 - sudo apt install ruby
   - sudo gem install zsteg
-  - zsteg image.png ----> ( only for png image )
+  - zsteg image.png ----> ( only for png image. )
 - binwalk -e image.png
   - binwalk --dd = ".*" image.png
-- outguess -r image.png flag.txt # for the LSB
+- outguess -r image.png flag.txt ----> ( for the LSB. )
 
 
 
