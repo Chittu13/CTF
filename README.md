@@ -25,16 +25,17 @@
 - binwalk -e image.png
   - binwalk --dd = ".*" image.png
 - outguess -r image.png flag.txt ----> ( for the LSB. )
+- [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
+  - (zero width space )
 
 
 
 
 ## Web <a name="web"></a>
-Web <a name="web"></a>
-<!-- Add web-related content here -->
+
 ## Cryptography <a name="crypto"></a>
-<!-- Add cryptography-related content here -->
+
 ## Forensics <a name="forensics"></a>
-<!-- Add forensics-related content here -->
+
 ## Reverse Engineering <a name="rev"></a>
-<!-- Add reverse engineering-related content here -->
+
