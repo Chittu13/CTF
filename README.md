@@ -32,8 +32,14 @@
   - for the LSB.
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
-### Steganography audio <a name="stenographyaudio"></a>
-
+## Steganography audio <a name="stenographyaudio"></a>
+- [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
+- [stegolsb](https://github.com/ragibson/Steganography.git)
+  - If the audio is related to LSB
+  - ```cd Steganography```
+  - give the permission
+  - ```python3 setup.py install```
+  - ```stegolsb wavsteg -r -i file.wav -o flag.txt -n 2 -b 1000```
 
 
 
@@ -41,6 +47,24 @@
 ## Web <a name="web"></a>
 
 ## Cryptography <a name="crypto"></a>
+- This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
+```
+-------------------------
+|76 |101|115|116|101|114|
+-------------------------
+|32 |83 |97 |110|100|101|
+-------------------------
+|114|115|32 |115|104|111|
+-------------------------
+|117|108|100|32 |104|101|
+-------------------------
+|108|112|32 |121|111|117|
+-------------------------
+|32 |58 |41 |41 |41 |42 |
+-------------------------
+
+KLZCOUKTVOUWUKDOBGZVJIIIRGVHXCRQUCNOX_IBBL 
+```
 
 ## Forensics <a name="forensics"></a>
 - [outer space audio](https://github.com/colaclanth/sstv.git)
