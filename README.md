@@ -14,7 +14,7 @@
 - strings image.png 
 - exiftool image.png 
   - eog image.png
-- xxd image.png # if you see IEND chunk in exiftool use this command
+- xxd image.png                     // if you see IEND chunk in exiftool use this command
 - Download the stegsolve.jar in any GitHub
   - run java -jar stegsolve.jar #make sure that you give the permission
 - If the image is QR code image
