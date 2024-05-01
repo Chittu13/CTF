@@ -79,4 +79,8 @@ KLZCOUKTVOUWUKDOBGZVJIIIRGVHXCRQUCNOX_IBBL
   - if the hit is related about SSTV(slow scan TV)
 
 ## Reverse Engineering <a name="rev"></a>
-
+- ```ltrace ./filename```
+  - The file is executable_file so we use ./filename
+- ```strace ./filename```
+- [ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
+  - Download the zip file from the above line```hidra_11.0.3_PUBLIC_20240410.zip```
