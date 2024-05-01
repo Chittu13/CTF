@@ -49,6 +49,9 @@
   - if you want to read the index.php use this payload in the url "    ' and die(system("cat index.php")) or ' "
 - ```curl -X POST --data hash=2196812e91c29df34f5e217cfd639881 "http://example.com:8080/admin.php"```
   - you use this if you found hash in the sorce page
+- ```wget -m http://example.com:8080/```
+  - here it will download the all the file in the website
+  - ```grep -R "CTF{.*}"``` use this commond after download the all files
 
 ## Cryptography <a name="crypto"></a>
 1. This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
