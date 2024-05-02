@@ -20,6 +20,7 @@
 - ```xxd image.png```
   - if you see IEND chunk in exiftool use this command.
 - ```find | xargs cat | grep "find"``` //if you have lot of text file then you this
+  - ```grep -rni "flag{.*}"```
 - Download the stegsolve.jar in any GitHub
   - ```java -jar stegsolve.jar```
   - make sure that you give the permission. 
