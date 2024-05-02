@@ -36,8 +36,9 @@
   - for the LSB.
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
-
-- 
+- suspicious space and tabs in a given text file
+![image](https://github.com/Chittu13/CTF/blob/main/image/space_tab.png)
+  - python script to extract and convert from binary to ASCII and get  the flag.
 ``` python
 def extract_and_convert(file_path):
     with open(file_path, 'rb') as file:
