@@ -36,6 +36,30 @@
   - for the LSB.
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
+
+- 
+``` python
+def extract_and_convert(file_path):
+    with open(file_path, 'rb') as file:
+        data = file.read()
+
+    result = ''
+    for byte in data:
+        if byte == 0x09:  // Tab character
+            result += '0'
+        elif byte == 0x20:  // Space character
+            result += '1'
+    
+    return result
+
+file_path = 'the_cs_dictionary.txt'
+
+binary_string = extract_and_convert(file_path)
+
+n = int(binary_string, 2)
+print(n.to_bytes((n.bit_length() + 7) // 8, 'big').decode())
+
+```
 ## Steganography audio <a name="stenographyaudio"></a>
 - [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
 - [stegolsb](https://github.com/ragibson/Steganography.git)
