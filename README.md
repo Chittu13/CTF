@@ -115,6 +115,8 @@ KLZCOUKTVOUWUKDOBGZVJIIIRGVHXCRQUCNOX_IBBL
   - ```sudo python3 setup.py install```
   - ```sstv -d file.wav -o result.png```
   - if the hit is related about SSTV(slow scan TV)
+- ```strings flag.zip | grep -i cit | sort | uniq -u```
+  - Given zip file was numerous directories with a flag.txt
 
 ## Reverse Engineering <a name="rev"></a>
 - ```ltrace ./filename```
