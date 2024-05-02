@@ -14,7 +14,8 @@
 - ```file image.png```
 - ```strings image.png```
 - ```pngcheck image.png```
-- ```exiftool image.png```
+- ```sudo apt install libimage-exiftool-perl -y```
+  - ```exiftool image.png```
   - ```eog image.png```
 - ```xxd image.png```
   - if you see IEND chunk in exiftool use this command.
