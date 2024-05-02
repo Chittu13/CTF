@@ -9,7 +9,7 @@
 
 ## Steganography <a name="stenography"></a>
 
-- ```steghide extract -sf image.jpg -p <password>```
+- ```steghide --extract -sf image.jpg -p <password>```
 - ```stegcracker imag.png /user/share/wordlists/rockyou.txt```
 - ```file image.png```
 - ```strings image.png```
