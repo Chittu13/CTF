@@ -36,6 +36,8 @@
   - for the LSB.
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
+- redacted text (cover with block) in a given pdf
+  - ```pdftotext file.pdf``` or ```pdftohtml  file.pdf```
 - suspicious space and tabs in a given text file
 ![image](https://github.com/Chittu13/CTF/blob/main/image/space_tab.png)
   - python script to extract and convert from binary to ASCII and get  the flag.
