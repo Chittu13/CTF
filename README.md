@@ -6,6 +6,7 @@
 - [Cryptography](#crypto)
 - [Forensics](#forensics)
 - [Reverse Engineering](#rev)
+- [OSINT](#osint)
 
 ## Steganography <a name="stenography"></a>
 
@@ -141,3 +142,16 @@ for row in sums:
 - ```strace ./filename```
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
   - Download the zip file from the above line```hidra_11.0.3_PUBLIC_20240410.zip```
+
+## OSINT <a name="osint"></a>
+
+```bash
+# clone the repo
+$ git clone https://github.com/sherlock-project/sherlock.git
+
+# change the working directory to sherlock
+$ cd sherlock
+
+# install the requirements
+$ python3 -m pip install -r requirements.txt
+```
