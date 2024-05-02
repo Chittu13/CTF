@@ -12,7 +12,8 @@
 - ```steghide extract -sf image.jpg -p <password>```
 - ```stegcracker imag.png /user/share/wordlists/rockyou.txt```
 - ```file image.png```
-- ```strings image.png``` 
+- ```strings image.png```
+- ```pngcheck image.png```
 - ```exiftool image.png```
   - ```eog image.png```
 - ```xxd image.png```
