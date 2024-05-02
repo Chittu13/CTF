@@ -35,6 +35,10 @@
   - ```binwalk --dd = ".*" image.png```
 - ```outguess -r image.png flag.txt```
   - for the LSB.
+- one more for the LSB.
+  - go to ---> [jsteg](https://github.com/lukechampine/jsteg) (clone it!!)
+  - open the file
+  - run this command ```go run cmd/jsteg/main.go reveal ~/Desktop/image.jpg```
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
 - redacted text (cover with block) in a given pdf
