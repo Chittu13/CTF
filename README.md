@@ -7,6 +7,7 @@
 - [Forensics](#forensics)
 - [Reverse Engineering](#rev)
 - [OSINT](#osint)
+- pwd
 
 ## Steganography <a name="stenography"></a>
 
