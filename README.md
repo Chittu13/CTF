@@ -42,7 +42,8 @@
   - run this command ```go run cmd/jsteg/main.go reveal ~/Desktop/image.jpg```
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
-- Use ```GIMP``` to work with QR dots 
+- Use ```GIMP``` to work with QR dots
+- ```zbarimg image.png``` to read the qr code
 - redacted text (cover with block) in a given pdf
   - ```pdftotext file.pdf``` or ```pdftohtml  file.pdf```
 - suspicious space and tabs in a given text file
