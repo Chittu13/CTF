@@ -43,6 +43,7 @@
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
 - Use ```GIMP``` to work with QR dots
+- ```otfinfo -i font.ttf``` for file.ttf
 - ```zbarimg image.png``` to read the qr code
 - redacted text (cover with block) in a given pdf
   - ```pdftotext file.pdf``` or ```pdftohtml  file.pdf```
