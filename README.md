@@ -7,7 +7,7 @@
 - [Forensics](#forensics)
 - [Reverse Engineering](#rev)
 - [OSINT](#osint)
-- pwd
+- [PWD](#pwd)
 
 ## Steganography <a name="stenography"></a>
 
@@ -165,3 +165,8 @@ $ cd sherlock
 $ python3 -m pip install -r requirements.txt
 $ python3 sherlock user123
 ```
+
+
+## PWD <a name="pwd"></a>
+
+
