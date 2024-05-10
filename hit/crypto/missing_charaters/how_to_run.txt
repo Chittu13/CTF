@@ -1,0 +1,1 @@
+py solve.py -d path\ciphertext.txt
