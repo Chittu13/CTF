@@ -59,3 +59,20 @@ socat -u FILE:flag STDOUT ----> It reads data from files, it may be used to do p
 # Requires some light programming to read the flag.!
 
 whiptail --textbox --scrolltext flag 20 10  -->display dialog boxes from shell scripts
+
+awk '{print}' flag  or awk '//' flag —>pattern scanning and processing language  (Use regular, string matching)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
