@@ -87,6 +87,9 @@ perl -ne print flag	—> extract the language practical statements
 
 bash -p   -->(Bourne Again Shell) execute the orders read from standard input or files
 
+date -f flag   ---> Display the current time in the given FORMAT, or set the system date.
+
+
 
 
 
