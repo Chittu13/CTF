@@ -96,6 +96,8 @@ bash -p   -->(Bourne Again Shell) execute the orders read from standard input or
 
 date -f flag   ---> Display the current time in the given FORMAT, or set the system date.
 
+dmesg -rF flag  ---> Display boot information / Display or control the kernel ring buffer.
+
 
 
 
