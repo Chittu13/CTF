@@ -62,6 +62,9 @@ whiptail --textbox --scrolltext flag 20 10  -->display dialog boxes from shell s
 
 awk '{print}' flag  or awk '//' flag —>pattern scanning and processing language  (Use regular, string matching)
 
+sed 's/.*/&/' flag or sed -e '' flag --> stream editor for filtering and transforming text
+
+
 
 
 
