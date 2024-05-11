@@ -69,7 +69,7 @@ ed -s flag <<< '1,$p'  --> text editor  (Start edit by reading in ‘file’ if 
 
 # Lets you get the flag by doing tricks with permissions!
 
-cp flag /dev/stdout 
+cp flag /dev/stdout  or echo "xx" | cp /dev/stdin flag
 
 
 
