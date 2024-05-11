@@ -76,6 +76,8 @@ mv /usr/bin/cat /usr/bin/mv # overwrite the mv, use the mv actually run the cat
 	mv flag #get the flag
 	#the normal way to use the 'mv' is overwrite the /etc/shadow or /etc/passwd or /etc/sudoers
 
+perl -ne print flag	—> extract the language practical statements
+
 
 
 
