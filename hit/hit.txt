@@ -98,6 +98,15 @@ date -f flag   ---> Display the current time in the given FORMAT, or set the sys
 
 dmesg -rF flag  ---> Display boot information / Display or control the kernel ring buffer.
 
+wc --files0-from ./flag  ----> (Count words)—>Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.
+	#result:wc: 'pwn.college{the flag}'$'\n': No such file or directory
+	#--files0-from=F    read input from the files specified by
+	 NUL-terminated names in file F;
+
+gcc -x c -E flag
+
+as—>a kind of Compiler set
+
 
 
 
