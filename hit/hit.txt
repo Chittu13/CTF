@@ -64,6 +64,13 @@ awk '{print}' flag  or awk '//' flag —>pattern scanning and processing languag
 
 sed 's/.*/&/' flag or sed -e '' flag --> stream editor for filtering and transforming text
 
+ed -s flag <<< '1,$p'  --> text editor  (Start edit by reading in ‘file’ if given. If ‘file’ begins with a ‘!’, read output of shell command.)
+
+
+# Lets you get the flag by doing tricks with permissions!
+
+cp flag /dev/stdout 
+
 
 
 
