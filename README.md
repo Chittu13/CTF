@@ -36,6 +36,8 @@
   - ```binwalk --dd = ".*" image.png```
 - ```outguess -r image.png flag.txt```
   - for the LSB.
+- For the noice image
+  - go to --> [online](https://piellardj.github.io/stereogram-solver)
 - one more for the LSB.
   - go to ---> [jsteg](https://github.com/lukechampine/jsteg) (clone it!!)
   - open the file
