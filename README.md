@@ -94,6 +94,7 @@ print(n.to_bytes((n.bit_length() + 7) // 8, 'big').decode())
 - ```wget -m http://example.com:8080/```
   - here it will download the all the file in the website
   - ```grep -R "CTF{.*}"``` use this commond after download the all files
+- gobuster dir -k -u http://127.0.0.1/ -w /usr/share/dirbuster/wordlists/directory-list-2.3-medium.txt -x txt,cnf,conf
 
 ## Cryptography <a name="crypto"></a>
 1. This is [Hill Cipher](https://www.dcode.fr/hill-cipher), see how it works or use an online decoder
