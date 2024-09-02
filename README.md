@@ -17,7 +17,7 @@
 - ```strings image.png```
 - ```pngcheck image.png```
   - __If you are getting error then use below command__
-  - __`foremost image.png`__
+  - __`foremost image.png`__ ---> to recover the original image
 - ```sudo apt install libimage-exiftool-perl -y```
   - ```exiftool image.png```
   - ```eog image.png```
