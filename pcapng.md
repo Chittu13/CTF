@@ -20,3 +20,5 @@ for pkt in packets:
 
 print(''.join(flag))
 ```
+
+__Flag: `shctf{1_sh0uld_try_h1d1ng_1n_th3_ch3cksum_n3xt_t1me_0817}`__
