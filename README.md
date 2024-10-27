@@ -16,6 +16,7 @@
 - ```steghide --extract -sf image.jpg -p <password>```
 -  __[StegCracker](https://github.com/Paradoxis/StegCracker)__
    - `stegcracker imag.png /usr/share/wordlists/rockyou.txt`
+- __`stegoveritas.py stego.jpg`__
 - ```pngcheck image.png```
 - __`foremost image.png` ---> to recover the original image__
 - ```sudo apt install libimage-exiftool-perl -y```
