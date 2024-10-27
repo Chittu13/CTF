@@ -77,7 +77,9 @@
     - `python3 WavSteg.py -r -s soundfile -o outputfile` : extracts data from a wav sound file and outputs the data into a new file
   - ```stegolsb wavsteg -r -i file.wav -o flag.txt -n 2 -b 1000```
 
-- __[Detect DTMF Tones](http://dialabc.com/sound/detect/index.html)__
+- __Keypad number sound__
+  - __[DTMF button keys to generate tones](https://unframework.github.io/dtmf-detect/)__
+  - __[Detect DTMF Tones](http://dialabc.com/sound/detect/index.html)__
 
 
 ## Web <a name="web"></a>
