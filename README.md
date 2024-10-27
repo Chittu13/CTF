@@ -33,7 +33,7 @@
   - If the image is QR code image
 - ```sudo apt install ruby```
   - ```sudo gem install zsteg```
-  - ```zsteg image.png``` or ```zsteg  -a image.png```
+  - ```zsteg image.png``` or ```zsteg  -a image.png``` or `zsteg -E image.png`
   - only for png image.
 - ```binwalk -e image.png```
   - ```binwalk --dd = ".*" image.png```
