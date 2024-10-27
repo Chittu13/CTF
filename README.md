@@ -22,7 +22,7 @@
 - ```sudo apt install libimage-exiftool-perl -y```
   - ```exiftool image.png```
 - `exiv2 file` : shows the metadata of the given file
-  - ```eog image.png```
+- ```eog image.png```
 - ```xxd image.png```
   - if you see IEND chunk in exiftool use this command.
 - ```find | xargs cat | grep "find"``` //if you have lot of text file then you this
