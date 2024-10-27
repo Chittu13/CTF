@@ -10,7 +10,7 @@
 - [PWD](#pwd)
 
 ## Steganography <a name="stenography"></a>
-
+- __[Full stego](https://github.com/DominicBreuker/stego-toolkit?tab=readme-ov-file)__
 - ```file image.png```
 - ```strings image.png```
 - ```steghide --extract -sf image.jpg -p <password>```
