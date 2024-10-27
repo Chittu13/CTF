@@ -54,13 +54,13 @@
   - ```pdftotext file.pdf``` or ```pdftohtml  file.pdf```
 - suspicious space and tabs in a given text file
   - __[python](https://github.com/Chittu13/All_in_one/blob/main/CTF/Codes/space.md)__ script to extract and convert from binary to ASCII and get  the flag.
- 
 - __[Fcrackzip](https://github.com/hyc/fcrackzip) this tool bruteforces zip archives__
   - `fcrackzip -u -D -p wordlist.txt file.zip`
- 
 - __[npiet online](https://www.bertnase.de/npiet/npiet-execute.php)__
   - __An online interpreter for piet. piet is an esoteric language , programs in piet are images. read more about piet [here](https://www.dangermouse.net/esoteric/piet.html)__
-
+- __Comparison (cmp)__
+  - __Useful for comparing a modified file with its original version found online.__
+  - __`cmp original.jpg stego.jpg -b -l`__
 
 ## Steganography audio <a name="stenographyaudio"></a>
 - [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
