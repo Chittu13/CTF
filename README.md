@@ -62,6 +62,8 @@
 - __Comparison (cmp)__
   - __Useful for comparing a modified file with its original version found online.__
   - __`cmp original.jpg stego.jpg -b -l`__
+- __[Image Error Level Analyser](https://29a.ch/sandbox/2012/imageerrorlevelanalysis/)__
+- __[Magic Eye Solver / Viewer](https://magiceye.ecksdee.co.uk/)__
 
 ## Steganography audio <a name="stenographyaudio"></a>
 - [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
