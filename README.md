@@ -55,6 +55,9 @@
   - ```pdftotext file.pdf``` or ```pdftohtml  file.pdf```
 - suspicious space and tabs in a given text file
   - __[python](https://github.com/Chittu13/All_in_one/blob/main/CTF/Codes/space.md)__ script to extract and convert from binary to ASCII and get  the flag.
+ 
+- __[Fcrackzip](https://github.com/hyc/fcrackzip) this tool bruteforces zip archives__
+  - `fcrackzip -u -D -p wordlist.txt file.zip`
 
 ## Steganography audio <a name="stenographyaudio"></a>
 - [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
