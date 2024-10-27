@@ -20,6 +20,7 @@
   - __`foremost image.png` ---> to recover the original image__
 - ```sudo apt install libimage-exiftool-perl -y```
   - ```exiftool image.png```
+- `exiv2 file` : shows the metadata of the given file
   - ```eog image.png```
 - ```xxd image.png```
   - if you see IEND chunk in exiftool use this command.
