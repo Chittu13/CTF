@@ -14,8 +14,8 @@
 - ```file image.png```
 - - ```strings image.png```
 - ```steghide --extract -sf image.jpg -p <password>```
--  __[StegCracker](https://github.com/Paradoxis/StegCracker)__ 
-  - `stegcracker imag.png /usr/share/wordlists/rockyou.txt`
+-  __[StegCracker](https://github.com/Paradoxis/StegCracker)__
+   - `stegcracker imag.png /usr/share/wordlists/rockyou.txt`
 - ```pngcheck image.png```
   - If you are getting error then use below command
   - __`foremost image.png` ---> to recover the original image__
