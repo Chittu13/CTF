@@ -72,11 +72,9 @@
   - ```cd Steganography```
   - give the permission
   - ```python3 setup.py install```
- __WavstegPermalink__
-- __WavSteg is a python3 tool that can hide data and files in wav files and can also extract data from wav files.
-You can get it from [github](https://github.com/ragibson/Steganography.git)__
-Useful commands:
-- `python3 WavSteg.py -r -s soundfile -o outputfile` : extracts data from a wav sound file and outputs the data into a new file
+-  __Wavsteg__
+  - __WavSteg is a python3 tool that can hide data and files in wav files and can also extract data from wav files. You can get it from [github](https://github.com/ragibson/Steganography.git)__
+    - `python3 WavSteg.py -r -s soundfile -o outputfile` : extracts data from a wav sound file and outputs the data into a new file
   
   - ```stegolsb wavsteg -r -i file.wav -o flag.txt -n 2 -b 1000```
 
