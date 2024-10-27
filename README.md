@@ -57,6 +57,10 @@
  
 - __[Fcrackzip](https://github.com/hyc/fcrackzip) this tool bruteforces zip archives__
   - `fcrackzip -u -D -p wordlist.txt file.zip`
+ 
+- __[npiet online](https://www.bertnase.de/npiet/npiet-execute.php)__
+  - __An online interpreter for piet. piet is an esoteric language , programs in piet are images. read more about piet [here](https://www.dangermouse.net/esoteric/piet.html)__
+
 
 ## Steganography audio <a name="stenographyaudio"></a>
 - [Morsecode](https://morsecode.world/international/decoder/audio-decoder-adaptive.html)
