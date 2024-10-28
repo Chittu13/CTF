@@ -1,4 +1,6 @@
 # CTF 2.0
+
+__grep -rni "flag{.*}"__
 - [Hints](/CTF/Important.md)
 - [Steganography](#stenography)
   - [Steganography audio](#stenographyaudio)
