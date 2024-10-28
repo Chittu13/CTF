@@ -118,6 +118,9 @@
 - [ghidra](https://github.com/NationalSecurityAgency/ghidra/releases)
   - Download the zip file from the above line```hidra_11.0.3_PUBLIC_20240410.zip```
 - ```objbump -d executablefile``` it will show the assembly code of the file
+- `apktool d --advanced candorid.apk`
+  - __`grep -rni "flag{.*}"`__
+
 
 ## OSINT <a name="osint"></a>
 - To find the user in the internet use this tool called [sherlock](https://github.com/Chittu13/All_in_one/blob/main/CTF/Tools/sherlock.md)
