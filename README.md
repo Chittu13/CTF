@@ -51,6 +51,7 @@
   - run this command ```go run cmd/jsteg/main.go reveal ~/Desktop/image.jpg```
 - [Unicode](https://330k.github.io/misc_tools/unicode_steganography.html) 
   - zero width space
+- __`stegsonw -C -p "welc0me_t0_zh3r0_ctf" chall.txt`__
 - Use ```GIMP``` to work with QR dots
 - ```otfinfo -i font.ttf``` for file.ttf
 - ```zbarimg image.png``` to read the qr code
