@@ -20,6 +20,7 @@
 -  __[StegCracker](https://github.com/Paradoxis/StegCracker)__
    - `stegcracker imag.png /usr/share/wordlists/rockyou.txt`
 - __`stegoveritas.py stego.jpg`__
+- __`convert flag.png -auto-level output.png`__
 - ```pngcheck image.png```
 - __`foremost image.png` ---> to recover the original image__
 - ```sudo apt install libimage-exiftool-perl -y```
