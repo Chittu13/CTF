@@ -1,5 +1,5 @@
 # CTF 2.0
-
+- __[links](/links.md)__
 - __`grep -rni "flag{.*}"`__
 - __`grep -r "flag{,*}"`__
 - [Hints](/CTF/Important.md)
